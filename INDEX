@@ -1,0 +1,4 @@
+getUserKey              Generates a Pastebin session key
+pbGetText               Creates an object based on raw text from a Pastebin post
+pbListPosts             Lists a user's Pastebin posts
+pbPost                  Creates a Pastebin post based on argument input

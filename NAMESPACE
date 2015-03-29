@@ -1,0 +1,13 @@
+#exportPattern("^[[:alpha:]]+")
+
+importFrom(RCurl,
+           getURL, postForm)
+
+export(getUserKey,
+	pbGetText,
+	pbListPosts,
+	pbPost)
+
+### Local variables:
+### mode: R
+### End:
