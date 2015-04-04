@@ -1,7 +1,7 @@
 # code creates pastebin post(s) based on input text
-# this code requires a developer key! A user key is optional
-# posts are public by default
-# posts as guest by default - otherwise, api_user_password needs to be defined before using code
+# this code requires an API developer key!
+# posts are public by default ('privacy_code')
+# posts as guest by default - to post as a user, a session key ('user_key') is required
 
 pbPost <- function(user_key = "", api_dev_key = "", 
                    text = "hello world!", title = "Untitled", expire = "1W", privacy_code = "0"){
