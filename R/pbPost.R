@@ -3,8 +3,8 @@
 # posts are public by default
 # posts as guest by default - otherwise, api_user_password needs to be defined before using code
 
-pbPost <- function(text = "hello world!", title = "Untitled", 
-                   user_key = "", expire = "1W", api_dev_key = ""){
+pbPost <- function(user_key = "", api_dev_key = "", 
+                   text = "hello world!", title = "Untitled", expire = "1W"){
   expiry <- c("N", "10M", "1H", "1D", "1W", "2W", "1M")
   if(!expire %in% expiry) stop("Expiration time not valid - check pastebin.com/api")
   if(user_key %in% "") password <- ""
