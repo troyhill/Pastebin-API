@@ -15,7 +15,7 @@
   \item{api_dev_key}{Development key for Pastebin API, from http://pastebin.com/api/}
 }
 \value{
-  \item{key}{A session key.}
+  \item{session_key}{A session key.}
 }
 \examples{
 # user_name <- "your username"
