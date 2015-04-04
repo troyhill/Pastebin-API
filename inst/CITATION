@@ -1,0 +1,19 @@
+bibentry("Manual",
+         title = "Pastebin-API: An R API for Pastebin",
+         author = person("Troy D. Hill"),
+         organization = "Yale School of Forestry and Environmental Studies",
+         address      = "New Haven, CT",
+         year         = "2015",
+         url          = "https://github.com/troyhill/Pastebin-API",
+         
+         textVersion = 
+         paste("Troy D. Hill (2015). ", 
+               "Pastebin-API: An R API for Pastebin",
+               "Yale School of Forestry and Environmental Studies, New Haven, CT",
+               "URL https://github.com/troyhill/Pastebin-API.",
+               sep=""),
+         
+         mheader = "To cite Pastebin-API in publications use:",
+   
+	      mfooter = ""
+	)
