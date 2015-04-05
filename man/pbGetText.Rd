@@ -16,7 +16,7 @@
 }
 \examples{
 # generate a session key first
-# a <- pbListPosts(session_key = key) # lists all of beepbeepbeep's posts
+# a <- pbListPosts(session_key = session_key) # lists all of beepbeepbeep's posts, using session key from getUserKey()
 # pbGetText(a[1]) # get the content
 # pbGetText(a)
 }
