@@ -1,7 +1,7 @@
 # code to list posts by a specific user
-# dev_key and user_key must be previously defined
+# api_dev_key and session_key must be previously defined
 
-pbListPosts <- function(user = "beepbeepbeep", api_results_limit = 1000, session_key) {
+pbListPosts <- function(session_key, api_dev_key, user = "beepbeepbeep", api_results_limit = 1000) {
   if(api_results_limit > 1000) stop("'api_results_limit' must be between 1 and 1000'")
   if(api_results_limit < 1) stop("'api_results_limit' must be between 1 and 1000'")
 
