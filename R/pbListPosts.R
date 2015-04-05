@@ -9,7 +9,7 @@ pbListPosts <- function(user = "beepbeepbeep", api_results_limit = 1000, session
     uri = 'http://pastebin.com/api/api_post.php',
     api_user_name = user,
     api_dev_key = api_dev_key,
-    api_user_key = user_key, # session key, from getUserKey()
+    api_user_key = session_key, # session key, from getUserKey()
     api_results_limit = api_results_limit,
     api_option = "list"
   ))
@@ -22,5 +22,5 @@ pbListPosts <- function(user = "beepbeepbeep", api_results_limit = 1000, session
     test.b <- sub("</paste_key>", "", test.b)
     paste_key <- c(paste_key, sub("<paste_key>", "", test.b))
   }
-  paste_key[!is.na( paste_key)]
+  paste_key[!is.na(paste_key)]
 }
