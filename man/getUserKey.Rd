@@ -15,12 +15,12 @@
   \item{api_dev_key}{Development key for Pastebin API, from http://pastebin.com/api/}
 }
 \value{
-  \item{session_key}{A session key.}
+  \item{session_key}{A Pastebin session key.}
 }
 \examples{
 # user_name <- "your username"
 # user_password <- "your password"
 # dev_key <- "your dev key"
 
-# session_key <- getUserKey(user_name, user_password, dev_key) # generate a session key
+# session_key <- getUserKey(api_user_name = user_name, api_user_password = user_password, api_dev_key = dev_key) # generate a session key
 }
