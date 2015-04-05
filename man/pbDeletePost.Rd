@@ -23,8 +23,8 @@
 # user_password <- "your password"
 # dev_key <- "your dev key"
 
-# key <- getUserKey(user_name, user_password, dev_key) # generate a session key
-# a <- pbListPosts(session_key = key, user = user_name) # lists all of your posts
+# session_key <- getUserKey(api_user_name = user_name, api_user_password = user_password, api_dev_key = dev_key) 
+# a <- pbListPosts(session_key = session_key, user = user_name) # lists all of your posts
 # pbDeletePost(a) # delete all posts
-# pbListPosts(session_key = key, user = user_name) # no posts listed
+# pbListPosts(session_key = session_key, user = user_name) # no posts listed
 }
