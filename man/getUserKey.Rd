@@ -22,5 +22,5 @@
 # user_password <- "your password"
 # dev_key <- "your dev key"
 
-# api_user_key <- getUserKey(user_name, user_password, dev_key) # generate a session key
+# session_key <- getUserKey(user_name, user_password, dev_key) # generate a session key
 }
