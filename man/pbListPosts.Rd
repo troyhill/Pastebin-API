@@ -19,6 +19,6 @@
   \item{paste IDs}{a vector containing the paste IDs (the unique portion of the web address, following 'pastebin.com/') of the user's public posts (or all posts, if the targeted account is your own)}
 }
 \examples{
-# generate a session key first
-# a <- pbListPosts(session_key = key) # lists all of beepbeepbeep's posts
+# generate a session key first, using getUserKey
+# a <- pbListPosts(session_key = session_key) # lists all of beepbeepbeep's posts
 }
